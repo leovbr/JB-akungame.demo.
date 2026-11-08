@@ -928,3 +928,12 @@ body:not(.admin-body) :is(button,a):focus-visible{
 .admin-login-back{color:#9ba9bf;font-size:11px;text-decoration:none}
 .admin-login-back:hover{color:#c4b5fd}
 @media(max-width:520px){.admin-login-card{padding:27px 22px;border-radius:22px}}
+
+/* Testimonial text wrapping: prevent long links/IDs from escaping cards */
+.testimonial-card{min-width:0;max-width:100%}
+.testimonial-card-copy{min-width:0;max-width:100%;overflow:hidden}
+.testimonial-card-copy h2,.testimonial-card-copy p{max-width:100%;min-width:0;overflow-wrap:anywhere;word-break:break-word}
+.testimonial-card-copy p{white-space:pre-wrap;line-height:1.75}
+.admin-product-row{min-width:0}
+.admin-product-details{min-width:0;overflow:hidden}
+.admin-product-details strong,.admin-product-details span,.admin-product-details b{max-width:100%;overflow-wrap:anywhere;word-break:break-word}
