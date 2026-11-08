@@ -30,4 +30,4 @@ Supabase Database, Storage, and authenticated admin access will be connected aft
 
 Enable GitHub Pages for this repository using the `main` branch and `/(root)` as the publishing source:
 
-`https://leovbr.github.io/Nama Brand/`
+`https://leovbr.github.io/JB-akungame.demo./`
