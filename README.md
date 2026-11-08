@@ -1,6 +1,6 @@
-# Kyvora.id
+# Nama Brand
 
-Website storefront and temporary admin prototype for the Kyvora.id game-account shop.
+Website storefront and temporary admin prototype for the Nama Brand game-account shop.
 
 ## Main pages
 
@@ -30,4 +30,4 @@ Supabase Database, Storage, and authenticated admin access will be connected aft
 
 Enable GitHub Pages for this repository using the `main` branch and `/(root)` as the publishing source:
 
-`https://leovbr.github.io/Kyvora.id/`
+`https://leovbr.github.io/Nama Brand/`
