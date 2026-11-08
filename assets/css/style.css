@@ -937,3 +937,19 @@ body:not(.admin-body) :is(button,a):focus-visible{
 .admin-product-row{min-width:0}
 .admin-product-details{min-width:0;overflow:hidden}
 .admin-product-details strong,.admin-product-details span,.admin-product-details b{max-width:100%;overflow-wrap:anywhere;word-break:break-word}
+
+
+/* Mobile navbar cleanup: preserve full wordmark and all three controls */
+@media(max-width:600px){
+ .site-header{box-sizing:border-box!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:clamp(7px,2vw,14px)!important;padding-left:5%!important;padding-right:5%!important;min-width:0!important;}
+ .site-header>.brand{display:flex!important;flex:0 0 auto!important;width:auto!important;min-width:max-content!important;max-width:none!important;white-space:nowrap!important;margin:0!important;overflow:visible!important;}
+ .site-header>.brand .brand-name{display:inline-flex!important;flex:0 0 auto!important;min-width:max-content!important;width:auto!important;white-space:nowrap!important;overflow:visible!important;font-size:clamp(13px,3.5vw,17px)!important;letter-spacing:clamp(1px,.35vw,2px)!important;}
+ .site-header>.language-selector{order:2!important;flex:0 0 36px!important;width:36px!important;min-width:36px!important;margin:0 0 0 auto!important;}
+ .site-header>.header-search-wrap{order:3!important;display:flex!important;visibility:visible!important;opacity:1!important;flex:0 0 36px!important;width:36px!important;min-width:36px!important;margin:0!important;}
+ .site-header>.header-search-wrap .header-search-toggle{display:grid!important;visibility:visible!important;width:36px!important;height:40px!important;flex:0 0 36px!important;}
+ .site-header>.menu-toggle{order:4!important;display:block!important;visibility:visible!important;flex:0 0 30px!important;width:30px!important;min-width:30px!important;margin:0 0 0 2px!important;padding:0!important;}
+ .site-header>.language-selector .language-menu{right:0!important;left:auto!important;}
+}
+/* Brand-neutral hero emblem */
+.hero-emblem .emblem-bottom{display:flex;align-items:center;justify-content:center;gap:2px;white-space:nowrap;font-size:clamp(10px,1.5vw,14px);letter-spacing:3px;font-weight:700;}
+.hero-emblem .emblem-ky,.hero-emblem .emblem-rest{color:#f1f5ff!important;}
